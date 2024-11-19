@@ -1,0 +1,56 @@
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.service-table {
+  border-radius: 20px;
+}
+
+.service-row-is-active {
+  background-color: aquamarine;
+  color: black;
+}
+
+.mat-mdc-header-cell {
+  color: white;
+}
+
+.mat-mdc-row .mat-mdc-cell {
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  cursor: pointer;
+}
+
+.mat-mdc-row:hover .mat-mdc-cell {
+  border-color: aliceblue;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  margin-inline: 10px;
+  justify-self: start;
+  background: var(--primary-color);
+  color: white;
+  border: 1px solid var(--primary-color);
+  font-size: 16pt;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button:hover {
+  border-color: white;
+}
